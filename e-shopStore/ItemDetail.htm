@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品明細</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://picsum.photos/300/100" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">最新消息</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">產品介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-3">
+        <ul class="list-group">
+          <li class="list-group-item active" aria-current="true">An active item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+      <div class="col col-md-9 border">
+        <div class="row">
+          <div class="col-6 p-3">
+            <img src="https://picsum.photos/300/300" alt="">
+          </div>
+          <div class="col-6">
+            <div class="item-text p-3">
+              <ul class="list-group ">
+                <li class="list-group-item border-0"><h3>手機支架</h3></li>
+                <li class="list-group-item border-0">價格:200</li>
+                <li class="list-group-item border-0">折價:150</li>
+                <li class="list-group-item border-0">尺寸:<select class="form-select">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select></li>
+                <li class="list-group-item border-0">數量:
+                  <select class="form-select">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </li>
+                <li class="list-group-item border-0">
+                  <button type="button" class="btn btn-primary">加入購物車</button>
+                  <button type="button" class="btn btn-primary">直接購買</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="item-detail">
+          <h1>商品描述</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aliquid eveniet eius sit iste, tempora voluptas nisi animi autem provident.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer mt-3">
+    <p class="text-center">服務時間:週一~週五 9:00~18:00<br>
+    地址:台北市中山區中山北路三段181號<br>
+    無商業用途 練習專用</h6>
+  </div>
+
+  <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
